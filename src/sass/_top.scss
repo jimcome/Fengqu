@@ -1,0 +1,63 @@
+.top {
+    @extend %wave;
+    background: black;
+    .typearea {
+        height: 30px;
+        line-height: 30px;
+        background: black;
+        .top_left {
+            position: relative;
+            float: left;
+            .top_font {
+                display: block;
+                @extend %gap;
+                float: left;
+            }
+            .top_font:hover {
+                color: #999999;
+            }
+            .login {
+                display: block;
+                position: absolute;
+                top: 0px;
+                left: 66px;
+                width: 100px;
+            }
+            .admin {
+                font-size: 14px;
+                color: #cccccc;
+                position: absolute;
+                top: 0px;
+                left: 66px;
+                width: 200px;
+                .exit {
+                    display: block;
+                    position: absolute;
+                    top: 0px;
+                    left: 84px;
+                    @extend %gap;
+                }
+            }
+        }
+        .top_right {
+            float: right;
+            .top_font {
+                @extend %gap;
+            }
+            .top_font:hover {
+                color: #999999;
+            }
+            .top_font:last-of-type {
+                margin-right: 0px;
+            }
+            span {
+                float: right;
+                margin-top: 10px;
+                display: block;
+                width: 10px;
+                height: 20px;
+                background: url(../images/header.png) no-repeat -8px -5px;
+            }
+        }
+    }
+}

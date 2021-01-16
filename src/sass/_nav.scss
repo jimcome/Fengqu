@@ -1,0 +1,51 @@
+.nav {
+    @extend %wave;
+    @extend %clear;
+    background: white;
+    .nav_left {
+        @extend %clear;
+        float: left;
+        a {
+            display: block;
+            float: left;
+            text-decoration: none;
+            padding: 0px 25px;
+            height: 45px;
+            line-height: 37px;
+            color: black;
+        }
+        .nav_a {
+            color: red;
+            li {
+                border-bottom: 2px solid red;
+            }
+        }
+        li {
+            height: 37px;
+            padding-bottom: 6px;
+        }
+    }
+    .nav_right {
+        float: right;
+        li {
+            float: left;
+            padding-left: 30px;
+            height: 45px;
+            line-height: 37px;
+            font-size: $font12;
+        }
+        li:hover {
+            color: #999;
+            cursor: pointer;
+        }
+        .nav_li1 {
+            background: url(../images/header.png)no-repeat -6px -220px;
+        }
+        .nav_li2 {
+            background: url(../images/header.png)no-repeat -6px -397px;
+        }
+        .nav_li3 {
+            background: url(../images/header.png)no-repeat -6px -547px;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "309944",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "355532",
+      "name": "webo",
+      "font_class": "webo",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "792216",
+      "name": "the earth2-地球",
+      "font_class": "theearth2diqiu",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "850723",
+      "name": "weixin",
+      "font_class": "weixin",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "11195028",
+      "name": "货车",
+      "font_class": "huoche",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "12470538",
+      "name": "记录",
+      "font_class": "jilu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "14236493",
+      "name": "推车_barrow",
+      "font_class": "tuiche_barrow",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "14236499",
+      "name": "纸箱_carton",
+      "font_class": "zhixiang_carton",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "17407738",
+      "name": "清单管理",
+      "font_class": "qingdanguanli",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    }
+  ]
+}

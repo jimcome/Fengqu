@@ -1,0 +1,140 @@
+.footer1 {
+    padding: 13px 0;
+    background: #3E3A39;
+    color: #fff;
+    font-size: 14px;
+    height: 54px;
+    @extend %wave;
+    .typearea {
+        background: #3E3A39;
+        @extend %inherit;
+        height: 54px;
+        .explain {
+            height: 54px;
+            @extend %clear;
+        }
+        .explain li {
+            float: left;
+            width: 235px;
+            text-align: center;
+            border-left: 1px solid #635D5C;
+            margin-left: -1px;
+            list-style: none;
+            font-size: 16px;
+        }
+        li span {
+            display: inline-block;
+            font-size: 46px;
+            margin-top: 6px;
+            margin-left: 10px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.footer2 {
+    background: #F1F1F1;
+    font-size: 14px;
+    padding-bottom: 25px;
+    @extend %wave;
+    .typearea {
+        @extend %inherit;
+        background: #F1F1F1;
+        .company_message {
+            padding: 30px 0px;
+        }
+        .address_message {
+            @extend %clear;
+            margin-bottom: 30px;
+        }
+        .message_left {
+            float: left;
+            .top {
+                width: 158px;
+                height: 69px;
+                background: url(../images/header.png)no-repeat -4px -320px;
+                margin-bottom: 0px;
+            }
+            .bottom {
+                padding-top: 14px;
+                height: 32px;
+            }
+            .text {
+                display: block;
+                float: left;
+                height: 32px;
+                line-height: 32px;
+            }
+            .wb,
+            .wx {
+                text-decoration: none;
+                float: left;
+                display: block;
+                text-decoration: none;
+            }
+            .wb {
+                margin: 2px 8px 0px 10px;
+            }
+            .wx {
+                margin: 0px 8px;
+            }
+            .icon-weibo {
+                color: red;
+                font-size: 28px;
+            }
+            .icon-weixin {
+                color: green;
+                font-size: 34px;
+            }
+        }
+        .message_middle {
+            float: left;
+            li {
+                float: left;
+                margin-left: 98px;
+            }
+            p {
+                margin-bottom: 22px;
+                font-size: $font14;
+            }
+            a {
+                margin-top: 10px;
+                font-size: $font12;
+                text-decoration: none;
+                display: block;
+                color: #999;
+            }
+        }
+        .message_right {
+            float: right;
+            margin-right: 16px;
+            text-align: center;
+            position: relative;
+            p {
+                margin-bottom: 10px;
+            }
+            div {
+                width: 101px;
+                height: 101px;
+                background: url(https://img0.fengqucdn.com/cmsres/20151119/0080d201-f306-49f0-a98c-b2e7748e0300.png)no-repeat 0px 0px;
+            }
+        }
+        .copying {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+        }
+        .promiss {
+            text-align: center;
+            margin-top: 4px;
+            color: #999;
+            a {
+                margin: 0px 5px;
+                text-decoration: none;
+                font-size: 12px;
+                color: #999;
+            }
+        }
+    }
+}

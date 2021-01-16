@@ -1,0 +1,40 @@
+$typearea_width:1180px;
+// $height:300px;
+$font12:12px;
+$font14:14px;
+$font16:16px;
+%clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+%inherit {
+    width: $typearea_width;
+    // height: $height;
+    margin: 0 auto;
+}
+
+%wave {
+    margin-bottom: 20px;
+}
+
+%gap {
+    font-size: $font12;
+    color: #cccccc;
+    margin-right: 20px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.typearea {
+    @extend %inherit;
+}
+
+@import "top";
+@import "header";
+@import "footer";

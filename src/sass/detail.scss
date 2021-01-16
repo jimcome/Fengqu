@@ -1,0 +1,158 @@
+$typearea_width:1180px;
+// $height:300px;
+$font12:12px;
+$font14:14px;
+$font16:16px;
+%clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+%inherit {
+    width: $typearea_width;
+    // height: $height;
+    margin: 0 auto;
+}
+
+%wave {
+    margin-bottom: 20px;
+}
+
+%gap {
+    font-size: $font12;
+    color: #cccccc;
+    margin-right: 20px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.typearea {
+    @extend %inherit;
+}
+
+.commod_detail {
+    padding: 30px 20px;
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    .typearea {
+        @extend %clear;
+        border: 1px solid #cccccc;
+    }
+    .commod_detail_left {
+        position: relative;
+        float: left;
+        width: 500px;
+        height: 600px;
+        .min_pic {
+            position: absolute;
+            top: 0;
+            left: 0;
+            img {
+                width: 74px;
+                height: 74px;
+            }
+        }
+        .max_box {
+            width: 418px;
+            height: 418px;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 76px;
+            .max_img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 101;
+                width: 418px;
+                height: 418px;
+                visibility: visible;
+            }
+            .sx_box {
+                width: 100px;
+                height: 100 px;
+                background: orange;
+                opacity: 0.3;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                visibility: hidden;
+            }
+            .fd_img {
+                width: 1.5*418px;
+                height: 1.5*418px;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                z-index: 100;
+                visibility: hidden;
+            }
+        }
+    }
+    .commod_detail_right {
+        height: 600px;
+        width: 600px;
+        float: left;
+        h1 {
+            font-size: 18px;
+            margin-bottom: 17px;
+        }
+        .price {
+            width: 150px;
+            background: #fff6f6;
+            padding: 10px 0;
+            font-size: 36px;
+            .newprice {
+                color: #dc3334;
+                font-family: Arial;
+            }
+        }
+        .num_regulation {
+            @extend %clear;
+            margin: 10px 0px;
+            .decrease,
+            .increase {
+                cursor: pointer;
+                text-align: center;
+                display: block;
+                float: left;
+                height: 34px;
+                line-height: 34px;
+                width: 32px;
+                font-size: 24px;
+                border: 1px solid #cccccc;
+            }
+            input {
+                float: left;
+                width: 49px;
+                height: 32px;
+                line-height: 32px;
+                border: 1px solid #cccccc;
+                text-align: center;
+            }
+        }
+        .btn {
+            text-decoration: none;
+            display: block;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            background: red;
+            color: white;
+            font-size: $font16;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+}
+
+@import "top";
+@import "header";
+@import "nav";
+@import "footer";
